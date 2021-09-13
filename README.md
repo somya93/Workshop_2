@@ -54,6 +54,3 @@ Double-clicking on a collection will bring up the center panel, which displays a
 
 In this application, we will be using [MongoEngine](https://docs.mongoengine.org/) to connect to MongoDB through Python. MongoEngine also provides us with a library to save and query data to the database.
 
-
-
-```
