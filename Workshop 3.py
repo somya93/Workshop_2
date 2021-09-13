@@ -23,3 +23,14 @@ data1.save()
 # Accessing the list of User objects saved in Mongodb
 for each_data in User.objects:
     print(each_data.name, each_data.age)
+
+# Updating objects
+
+# Returns a list of users with name=Ernst from which we select the first user
+updated_user = User.objects(name="Ernst").first()
+updated_user.name = "Amanda"  # Change Ernst to Amanda
+updated_user.save()   # Save after updating an object
+
+print("Users after updating database:")
+for each_data in User.objects:
+    print(each_data.name, each_data.age)
