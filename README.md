@@ -9,6 +9,7 @@ First of all, you need to install MongoDB and get it running. How to do that dep
 [Official Instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 It's easiest to install MongoDB Community Edition using [brew](https://brew.sh/).
+(Use [igeeksblog](https://www.igeeksblog.com/how-to-install-homebrew-on-mac/) for easier instructions.)
 
 ### Installing MongoDB - Windows
 
