@@ -1,4 +1,4 @@
-# Workshop_3
+# Workshop_2
 
 ## Prerequisites
 
